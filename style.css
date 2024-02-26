@@ -1,0 +1,24 @@
+:root{
+    --dark-text:#f8fbff;
+    --light-body:#f3f8fe;
+    --font-family:consolas;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    place-items: center;
+    font-family: var(--font-family);
+    background: linear-gradient(to right,#9796f0,#fbc7d4);
+    overflow: hidden;
+}
+
+.container{
+    width: max-content;
+    height: max-content;
+    position: relative;
+}
