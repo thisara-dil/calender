@@ -1,50 +1,52 @@
-<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALENDAR</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>Document</title>
-</head>
-<body>
-<div class="container">
-    <div class="calender">
-        <div class="calender-header">
-            <span class="month-picker" id="month-picker">March</span>
-            <div class="year-picker" id="year-picker">
-                <span class="year-change" id="pre-year">
-                    <pre></pre>
-                </span>
-                <span id ="year">2024</span>
-                <span class="year-change" id="next-year">
-                    <pre></pre>
-                </span>
-            </div>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="contianer">
+      <div class="calendar">
+        <div class="calendar-header">
+          <span class="month-picker" id="month-picker"> May </span>
+          <div class="year-picker" id="year-picker">
+            <span class="year-change" id="pre-year">
+              <pre><</pre>
+            </span>
+            <span id="year">2020 </span>
+            <span class="year-change" id="next-year">
+              <pre>></pre>
+            </span>
+          </div>
         </div>
-        <div class="calender-body">
-            <div class="calender-week-days"></div>
-            <div>sun</div>
-            <div>mon</div>
-            <div>tue</div>
-            <div>wed</div>
-            <div>thu</div>
-            <div>fri</div>
-            <div>sat</div>
+ 
+        <div class="calendar-body">
+          <div class="calendar-week-days">
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+          </div>
+          <div class="calendar-days">
+          </div>
         </div>
-        <div class="calender-days"></div>
+        <div class="calendar-footer">
+        </div>
+        <div class="date-time-formate">
+          <div class="day-text-formate">TODAY</div>
+          <div class="date-time-value">
+            <div class="time-formate">02:51:20</div>
+            <div class="date-formate">23 - july - 2022</div>
+          </div>
+        </div>
+        <div class="month-list"></div>
+      </div>
     </div>
-    <div class="calender-footer"></div>
-    <div class="date-text-format">
-        <div class="date-time-format">Today</div>
-        <div class="date-time-value">
-            <div class="time-format">02.51.20</div>
-            <div class="date-format">26 - february - 2024</div>
-        </div>
-    </div>
-    <div class="month-list"></div>
-</div>
-</body>
+  </body>
 </html>
